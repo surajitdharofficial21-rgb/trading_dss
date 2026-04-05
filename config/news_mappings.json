@@ -1,0 +1,228 @@
+{
+  "_metadata": {
+    "version": "1.0",
+    "description": "Keyword-to-index mappings for news sentiment routing",
+    "last_updated": "2024-01-01"
+  },
+  "banking_finance": {
+    "keywords": [
+      "rbi", "reserve bank of india", "repo rate", "reverse repo", "crr", "slr",
+      "interest rate", "monetary policy", "mpc", "monetary policy committee",
+      "npa", "non performing asset", "bad loan", "credit growth", "credit offtake",
+      "banking sector", "bank credit", "deposit growth", "liquidity deficit",
+      "open market operations", "omo", "g-sec", "government securities",
+      "inflation", "cpi", "wpi", "forex reserve", "rupee", "currency",
+      "nbfc", "microfinance", "housing finance", "insurance premium"
+    ],
+    "affected_indices": [
+      "BANKNIFTY", "FINNIFTY", "NIFTY_PSU_BANK", "NIFTY_PRIVATE_BANK",
+      "BSE_BANKEX", "SENSEX", "NIFTY50"
+    ],
+    "weight": 0.9
+  },
+  "it_sector": {
+    "keywords": [
+      "tcs", "infosys", "wipro", "hcl tech", "tech mahindra",
+      "it sector", "software exports", "digital transformation",
+      "cloud computing", "artificial intelligence", "ai", "automation",
+      "us recession", "us gdp", "dollar index", "usd inr",
+      "visa regulations", "h1b visa", "outsourcing", "offshoring",
+      "cybersecurity", "data center", "saas", "technology spending",
+      "it budget", "enterprise software", "erp", "it layoffs"
+    ],
+    "affected_indices": [
+      "NIFTY_IT", "NIFTY50", "SENSEX", "NIFTY_INDIA_DIGITAL"
+    ],
+    "weight": 0.85
+  },
+  "pharma_healthcare": {
+    "keywords": [
+      "pharma", "pharmaceutical", "drug approval", "usfda", "fda approval",
+      "clinical trial", "biosimilar", "generic drug", "api",
+      "active pharmaceutical ingredient", "drug recall", "warning letter",
+      "healthcare", "hospital", "diagnostics", "medical device",
+      "patent expiry", "drug patent", "covid", "pandemic", "vaccine",
+      "who", "world health organization", "health policy",
+      "pharma export", "drug pricing", "price control", "dpco"
+    ],
+    "affected_indices": [
+      "NIFTY_PHARMA", "NIFTY_HEALTHCARE", "NIFTY50"
+    ],
+    "weight": 0.85
+  },
+  "energy_oil": {
+    "keywords": [
+      "crude oil", "brent crude", "wti", "opec", "opec plus",
+      "oil price", "natural gas", "lng", "petroleum", "refinery",
+      "fuel price", "petrol price", "diesel price", "energy sector",
+      "renewable energy", "solar power", "wind energy", "green hydrogen",
+      "coal", "power generation", "electricity tariff", "power deficit",
+      "ongc", "ioc", "bpcl", "hpcl", "reliance industries",
+      "upstream oil", "downstream petroleum", "gas pipeline"
+    ],
+    "affected_indices": [
+      "NIFTY_ENERGY", "NIFTY_OIL_GAS", "NIFTY50", "NIFTY_COMMODITIES"
+    ],
+    "weight": 0.8
+  },
+  "metals_mining": {
+    "keywords": [
+      "steel price", "iron ore", "aluminium", "copper", "zinc", "nickel",
+      "metal price", "tata steel", "jsw steel", "sail", "hindalco",
+      "vedanta", "coal india", "mining output", "base metal",
+      "precious metal", "gold price", "silver price",
+      "china demand", "china pmi", "infrastructure spending",
+      "construction activity", "scrap metal", "ferrous", "non ferrous"
+    ],
+    "affected_indices": [
+      "NIFTY_METAL", "NIFTY_COMMODITIES", "NIFTY50", "NIFTY_CPSE"
+    ],
+    "weight": 0.8
+  },
+  "auto_sector": {
+    "keywords": [
+      "auto sales", "vehicle sales", "passenger vehicle", "commercial vehicle",
+      "two wheeler", "electric vehicle", "ev", "maruti", "hyundai",
+      "tata motors", "mahindra", "bajaj auto", "hero motocorp",
+      "gsm sales data", "siam data", "auto expo",
+      "scrappage policy", "bs6", "emission norms", "cab aggregator",
+      "auto component", "ancillary", "fuel economy", "ev adoption"
+    ],
+    "affected_indices": [
+      "NIFTY_AUTO", "NIFTY_EV_NEW_AGE_AUTO", "NIFTY50", "SENSEX"
+    ],
+    "weight": 0.8
+  },
+  "fmcg_consumption": {
+    "keywords": [
+      "fmcg", "fast moving consumer goods", "rural consumption",
+      "urban consumption", "hul", "hindustan unilever", "itc", "nestle",
+      "britannia", "dabur", "emami", "marico", "godrej consumer",
+      "consumer staples", "food inflation", "raw material cost",
+      "palm oil", "wheat price", "milk price", "packaging cost",
+      "monsoon", "kharif", "rabi", "agriculture", "rural income",
+      "msp", "minimum support price", "fmcg volume growth"
+    ],
+    "affected_indices": [
+      "NIFTY_FMCG", "NIFTY_CONSUMPTION", "NIFTY50", "SENSEX"
+    ],
+    "weight": 0.75
+  },
+  "real_estate": {
+    "keywords": [
+      "real estate", "housing market", "property price", "home loan",
+      "dlf", "godrej properties", "oberoi realty", "sobha",
+      "prestige estates", "brigade enterprises",
+      "rera", "real estate regulation", "home sales",
+      "affordable housing", "commercial real estate", "office space",
+      "construction cost", "cement demand", "property registration",
+      "rental yield", "realty sector", "new launches"
+    ],
+    "affected_indices": [
+      "NIFTY_REALTY", "NIFTY50", "NIFTY_INFRA"
+    ],
+    "weight": 0.8
+  },
+  "infrastructure": {
+    "keywords": [
+      "infrastructure", "road construction", "highway project",
+      "national highway", "nhai", "railway expansion", "metro rail",
+      "airport modernization", "port development", "smart city",
+      "capex", "capital expenditure", "budget allocation",
+      "pli scheme", "production linked incentive",
+      "l&t", "adani enterprises", "irb infra", "knr constructions",
+      "water project", "irrigation", "defence procurement",
+      "public sector capex", "infrastructure fund"
+    ],
+    "affected_indices": [
+      "NIFTY_INFRA", "NIFTY_INDIA_DEFENCE", "NIFTY_CPSE", "NIFTY50"
+    ],
+    "weight": 0.75
+  },
+  "global_macro": {
+    "keywords": [
+      "fed rate", "federal reserve", "us interest rate", "us inflation",
+      "us jobs", "non farm payroll", "us gdp growth", "china economy",
+      "global recession", "eu economy", "dollar index", "dxy",
+      "emerging market", "em outflow", "fpi selling", "fpi buying",
+      "global trade war", "tariff", "geopolitical tension",
+      "us china trade", "russia ukraine", "middle east conflict",
+      "oil supply disruption", "global supply chain",
+      "world bank", "imf", "global growth forecast"
+    ],
+    "affected_indices": [
+      "NIFTY50", "SENSEX", "BANKNIFTY", "NIFTY_IT", "INDIA_VIX"
+    ],
+    "weight": 0.9
+  },
+  "government_policy": {
+    "keywords": [
+      "union budget", "fiscal deficit", "disinvestment", "privatisation",
+      "gst collection", "direct tax", "income tax", "corporate tax",
+      "sebi regulation", "securities law", "fdi policy",
+      "trade policy", "export ban", "import duty", "customs duty",
+      "demonetisation", "insolvency", "ibc", "nclt",
+      "government spending", "welfare scheme", "subsidy",
+      "election result", "state election", "political stability",
+      "make in india", "atmanirbhar", "psu divestment"
+    ],
+    "affected_indices": [
+      "NIFTY50", "SENSEX", "NIFTY_CPSE", "NIFTY_PSU_BANK", "INDIA_VIX"
+    ],
+    "weight": 0.9
+  },
+  "broad_market": {
+    "keywords": [
+      "sensex crash", "nifty fall", "market crash", "circuit breaker",
+      "bull market", "bear market", "rally", "correction",
+      "mutual fund", "sip", "domestic institutional investor", "dii",
+      "foreign institutional investor", "fii", "fpi",
+      "option expiry", "derivatives expiry", "f&o expiry",
+      "market breadth", "advance decline", "52 week high", "52 week low",
+      "trading halt", "upper circuit", "lower circuit",
+      "stock market today", "opening bell", "closing bell",
+      "volume surge", "market sentiment", "investor confidence"
+    ],
+    "affected_indices": [
+      "NIFTY50", "SENSEX", "INDIA_VIX", "NIFTY_NEXT50", "NIFTY100"
+    ],
+    "weight": 1.0
+  },
+  "media_telecom": {
+    "keywords": [
+      "telecom", "airtel", "jio", "vodafone idea", "spectrum",
+      "5g rollout", "arpu", "average revenue per user",
+      "ott platform", "streaming", "zee entertainment", "sun tv",
+      "network18", "media consumption", "digital advertising",
+      "trai", "telecom regulator", "tariff hike", "broadband"
+    ],
+    "affected_indices": [
+      "NIFTY_MEDIA", "NIFTY50"
+    ],
+    "weight": 0.7
+  },
+  "chemicals_specialty": {
+    "keywords": [
+      "specialty chemicals", "agrochemical", "pesticide", "fertilizer",
+      "pidilite", "aarti industries", "clean science", "deepak nitrite",
+      "china plus one", "chemical import substitute",
+      "dye intermediate", "pigment", "polymer", "adhesive"
+    ],
+    "affected_indices": [
+      "NIFTY50", "NIFTY_COMMODITIES"
+    ],
+    "weight": 0.65
+  },
+  "tourism_hospitality": {
+    "keywords": [
+      "tourism", "hotel", "hospitality", "travel", "airline",
+      "indigo", "air india", "aviation sector", "passenger traffic",
+      "hotel occupancy", "domestic tourism", "foreign tourist arrival",
+      "thomas cook", "makemytrip", "irctc", "railway tourism"
+    ],
+    "affected_indices": [
+      "NIFTY_INDIA_TOURISM", "NIFTY50"
+    ],
+    "weight": 0.6
+  }
+}

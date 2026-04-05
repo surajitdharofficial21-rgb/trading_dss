@@ -1,0 +1,222 @@
+{
+  "recurring_events": [
+    {
+      "name": "RBI Monetary Policy",
+      "frequency": "bi-monthly",
+      "typical_dates": "February, April, June, August, October, December",
+      "announcement_time": "10:00",
+      "impact_severity": "CRITICAL",
+      "affected_indices": ["BANKNIFTY", "NIFTY50", "SENSEX", "FINNIFTY", "NIFTY_PSU_BANK", "NIFTY_PRIVATE_BANK"],
+      "typical_volatility_increase": 2.0,
+      "pre_event_caution_hours": 24
+    },
+    {
+      "name": "US Federal Reserve Decision",
+      "frequency": "6-weekly",
+      "announcement_time": "00:00",
+      "timezone": "US/Eastern",
+      "impact_severity": "HIGH",
+      "affected_indices": ["NIFTY50", "SENSEX", "BANKNIFTY"],
+      "typical_volatility_increase": 1.5,
+      "pre_event_caution_hours": 12
+    },
+    {
+      "name": "India CPI Inflation Data",
+      "frequency": "monthly",
+      "typical_dates": "12th of each month",
+      "impact_severity": "MEDIUM",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.3,
+      "pre_event_caution_hours": 6
+    },
+    {
+      "name": "India GDP Data",
+      "frequency": "quarterly",
+      "typical_dates": "End of February, May, August, November",
+      "impact_severity": "HIGH",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.5,
+      "pre_event_caution_hours": 12
+    },
+    {
+      "name": "Monthly F&O Expiry",
+      "frequency": "monthly",
+      "typical_dates": "Last Thursday of month",
+      "impact_severity": "MEDIUM",
+      "affected_indices": ["NIFTY50", "BANKNIFTY", "FINNIFTY", "MIDCPNIFTY"],
+      "typical_volatility_increase": 1.5,
+      "pre_event_caution_hours": 6,
+      "note": "Increased volatility, max pain gravitational pull strongest"
+    },
+    {
+      "name": "Weekly F&O Expiry",
+      "frequency": "weekly",
+      "typical_dates": "Every Thursday",
+      "impact_severity": "LOW",
+      "affected_indices": ["NIFTY50", "BANKNIFTY", "FINNIFTY", "MIDCPNIFTY"],
+      "typical_volatility_increase": 1.2,
+      "pre_event_caution_hours": 2
+    },
+    {
+      "name": "India Union Budget",
+      "frequency": "annual",
+      "typical_dates": "February 1",
+      "impact_severity": "CRITICAL",
+      "affected_indices": ["ALL"],
+      "typical_volatility_increase": 3.0,
+      "pre_event_caution_hours": 48
+    },
+    {
+      "name": "US Non-Farm Payrolls",
+      "frequency": "monthly",
+      "typical_dates": "First Friday of each month",
+      "announcement_time": "18:00",
+      "timezone": "Asia/Kolkata",
+      "impact_severity": "HIGH",
+      "affected_indices": ["NIFTY50", "SENSEX", "NIFTY_IT"],
+      "typical_volatility_increase": 1.4,
+      "pre_event_caution_hours": 6,
+      "note": "Released 8:30 AM ET, impacts Indian markets next day or in after-hours"
+    },
+    {
+      "name": "US CPI Inflation Data",
+      "frequency": "monthly",
+      "typical_dates": "10th-14th of each month",
+      "announcement_time": "18:00",
+      "timezone": "Asia/Kolkata",
+      "impact_severity": "HIGH",
+      "affected_indices": ["NIFTY50", "SENSEX", "NIFTY_IT"],
+      "typical_volatility_increase": 1.4,
+      "pre_event_caution_hours": 6
+    },
+    {
+      "name": "India IIP (Index of Industrial Production)",
+      "frequency": "monthly",
+      "typical_dates": "12th of each month (with CPI)",
+      "impact_severity": "MEDIUM",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.2,
+      "pre_event_caution_hours": 4
+    },
+    {
+      "name": "India PMI Manufacturing",
+      "frequency": "monthly",
+      "typical_dates": "1st of each month",
+      "impact_severity": "MEDIUM",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.2,
+      "pre_event_caution_hours": 4
+    },
+    {
+      "name": "India PMI Services",
+      "frequency": "monthly",
+      "typical_dates": "3rd-5th of each month",
+      "impact_severity": "MEDIUM",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.2,
+      "pre_event_caution_hours": 4
+    },
+    {
+      "name": "Quarterly Earnings Season - IT",
+      "frequency": "quarterly",
+      "typical_dates": "Mid-January, Mid-April, Mid-July, Mid-October",
+      "impact_severity": "HIGH",
+      "affected_indices": ["NIFTY_IT", "NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.8,
+      "pre_event_caution_hours": 12,
+      "note": "TCS, Infosys kick off earnings season; bellwether for market"
+    },
+    {
+      "name": "Quarterly Earnings Season - Banks",
+      "frequency": "quarterly",
+      "typical_dates": "Late January, Late April, Late July, Late October",
+      "impact_severity": "HIGH",
+      "affected_indices": ["BANKNIFTY", "FINNIFTY", "NIFTY_PSU_BANK", "NIFTY_PRIVATE_BANK", "NIFTY50"],
+      "typical_volatility_increase": 1.8,
+      "pre_event_caution_hours": 12,
+      "note": "HDFC Bank, ICICI Bank results drive BANKNIFTY significantly"
+    },
+    {
+      "name": "India Trade Balance Data",
+      "frequency": "monthly",
+      "typical_dates": "15th-20th of each month",
+      "impact_severity": "LOW",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.1,
+      "pre_event_caution_hours": 2
+    },
+    {
+      "name": "India WPI Inflation Data",
+      "frequency": "monthly",
+      "typical_dates": "14th of each month",
+      "impact_severity": "LOW",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.1,
+      "pre_event_caution_hours": 2
+    },
+    {
+      "name": "ECB Interest Rate Decision",
+      "frequency": "6-weekly",
+      "announcement_time": "18:15",
+      "timezone": "Asia/Kolkata",
+      "impact_severity": "MEDIUM",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.2,
+      "pre_event_caution_hours": 4
+    },
+    {
+      "name": "Bank of Japan Policy Decision",
+      "frequency": "8-yearly",
+      "impact_severity": "MEDIUM",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.2,
+      "pre_event_caution_hours": 4
+    },
+    {
+      "name": "India Foreign Exchange Reserves",
+      "frequency": "weekly",
+      "typical_dates": "Every Friday",
+      "impact_severity": "LOW",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.1,
+      "pre_event_caution_hours": 2
+    },
+    {
+      "name": "US Quarterly GDP",
+      "frequency": "quarterly",
+      "typical_dates": "End of January, April, July, October",
+      "impact_severity": "HIGH",
+      "affected_indices": ["NIFTY50", "SENSEX", "NIFTY_IT"],
+      "typical_volatility_increase": 1.4,
+      "pre_event_caution_hours": 6
+    },
+    {
+      "name": "SEBI Board Meeting",
+      "frequency": "quarterly",
+      "impact_severity": "HIGH",
+      "affected_indices": ["ALL"],
+      "typical_volatility_increase": 1.3,
+      "pre_event_caution_hours": 12,
+      "note": "Regulatory changes can impact market structure, F&O rules"
+    },
+    {
+      "name": "India GST Collection Data",
+      "frequency": "monthly",
+      "typical_dates": "1st of each month",
+      "impact_severity": "LOW",
+      "affected_indices": ["NIFTY50", "SENSEX"],
+      "typical_volatility_increase": 1.1,
+      "pre_event_caution_hours": 2
+    }
+  ],
+  "specific_events": [
+    {
+      "name": "India General Election Results",
+      "date": "2024-06-04",
+      "impact_severity": "CRITICAL",
+      "affected_indices": ["ALL"],
+      "typical_volatility_increase": 3.0,
+      "pre_event_caution_hours": 48
+    }
+  ]
+}

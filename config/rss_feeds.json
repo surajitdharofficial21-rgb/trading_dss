@@ -1,0 +1,211 @@
+[
+  {
+    "id": "moneycontrol_news",
+    "source_name": "Moneycontrol",
+    "url": "https://www.moneycontrol.com/rss/latestnews.xml",
+    "credibility_score": 0.85,
+    "category": "general_market",
+    "language": "en",
+    "refresh_interval_seconds": 120,
+    "is_active": true,
+    "description": "Moneycontrol latest market news"
+  },
+  {
+    "id": "moneycontrol_market",
+    "source_name": "Moneycontrol",
+    "url": "https://www.moneycontrol.com/rss/marketreports.xml",
+    "credibility_score": 0.85,
+    "category": "market_reports",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Moneycontrol market reports"
+  },
+  {
+    "id": "moneycontrol_business",
+    "source_name": "Moneycontrol",
+    "url": "https://www.moneycontrol.com/rss/business.xml",
+    "credibility_score": 0.85,
+    "category": "business",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Moneycontrol business news"
+  },
+  {
+    "id": "et_market",
+    "source_name": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+    "credibility_score": 0.90,
+    "category": "market",
+    "language": "en",
+    "refresh_interval_seconds": 120,
+    "is_active": true,
+    "description": "Economic Times markets feed"
+  },
+  {
+    "id": "et_economy",
+    "source_name": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/economy/rssfeeds/1373380680.cms",
+    "credibility_score": 0.90,
+    "category": "economy",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Economic Times economy feed"
+  },
+  {
+    "id": "et_industry",
+    "source_name": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms",
+    "credibility_score": 0.90,
+    "category": "industry",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Economic Times industry news"
+  },
+  {
+    "id": "et_banking",
+    "source_name": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/rssfeeds/40271581.cms",
+    "credibility_score": 0.90,
+    "category": "banking_finance",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Economic Times banking and finance"
+  },
+  {
+    "id": "livemint_market",
+    "source_name": "Livemint",
+    "url": "https://www.livemint.com/rss/markets",
+    "credibility_score": 0.88,
+    "category": "market",
+    "language": "en",
+    "refresh_interval_seconds": 120,
+    "is_active": true,
+    "description": "Livemint markets section"
+  },
+  {
+    "id": "livemint_economy",
+    "source_name": "Livemint",
+    "url": "https://www.livemint.com/rss/economy",
+    "credibility_score": 0.88,
+    "category": "economy",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Livemint economy section"
+  },
+  {
+    "id": "livemint_companies",
+    "source_name": "Livemint",
+    "url": "https://www.livemint.com/rss/companies",
+    "credibility_score": 0.88,
+    "category": "companies",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Livemint companies and corporate news"
+  },
+  {
+    "id": "google_news_india_biz",
+    "source_name": "Google News",
+    "url": "https://news.google.com/rss/search?q=india+stock+market+BSE+NSE&hl=en-IN&gl=IN&ceid=IN:en",
+    "credibility_score": 0.70,
+    "category": "aggregated",
+    "language": "en",
+    "refresh_interval_seconds": 300,
+    "is_active": true,
+    "description": "Google News India stock market aggregation"
+  },
+  {
+    "id": "google_news_sensex",
+    "source_name": "Google News",
+    "url": "https://news.google.com/rss/search?q=sensex+nifty+today&hl=en-IN&gl=IN&ceid=IN:en",
+    "credibility_score": 0.70,
+    "category": "aggregated",
+    "language": "en",
+    "refresh_interval_seconds": 300,
+    "is_active": true,
+    "description": "Google News Sensex and Nifty updates"
+  },
+  {
+    "id": "ndtv_profit",
+    "source_name": "NDTV Profit",
+    "url": "https://www.ndtvprofit.com/rss",
+    "credibility_score": 0.80,
+    "category": "general_market",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "NDTV Profit all news"
+  },
+  {
+    "id": "business_standard_market",
+    "source_name": "Business Standard",
+    "url": "https://www.business-standard.com/rss/markets-106.rss",
+    "credibility_score": 0.88,
+    "category": "market",
+    "language": "en",
+    "refresh_interval_seconds": 120,
+    "is_active": true,
+    "description": "Business Standard markets news"
+  },
+  {
+    "id": "business_standard_economy",
+    "source_name": "Business Standard",
+    "url": "https://www.business-standard.com/rss/economy-policy-102.rss",
+    "credibility_score": 0.88,
+    "category": "economy_policy",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Business Standard economy and policy"
+  },
+  {
+    "id": "business_standard_finance",
+    "source_name": "Business Standard",
+    "url": "https://www.business-standard.com/rss/finance-109.rss",
+    "credibility_score": 0.88,
+    "category": "finance",
+    "language": "en",
+    "refresh_interval_seconds": 180,
+    "is_active": true,
+    "description": "Business Standard finance news"
+  },
+  {
+    "id": "pib_india",
+    "source_name": "Press Information Bureau",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "credibility_score": 0.95,
+    "category": "government_policy",
+    "language": "en",
+    "refresh_interval_seconds": 300,
+    "is_active": true,
+    "description": "Official Government of India press releases"
+  },
+  {
+    "id": "rbi_press_release",
+    "source_name": "Reserve Bank of India",
+    "url": "https://www.rbi.org.in/scripts/rss.aspx",
+    "credibility_score": 1.0,
+    "category": "monetary_policy",
+    "language": "en",
+    "refresh_interval_seconds": 600,
+    "is_active": true,
+    "description": "Official RBI press releases and circulars"
+  },
+  {
+    "id": "sebi_press_release",
+    "source_name": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/feedparser/rss.xml",
+    "credibility_score": 1.0,
+    "category": "regulation",
+    "language": "en",
+    "refresh_interval_seconds": 600,
+    "is_active": true,
+    "description": "Official SEBI circulars and press releases"
+  }
+]
